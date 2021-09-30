@@ -1,0 +1,11 @@
+#include<studio.h>
+int main()
+{
+int a=40,b=60;
+printf("before swapping a=%d,b=%d",a,b);
+a=a+b;
+b=a-60;
+a=100-b;
+printf("\n after swapping a=%d,b=%d",a,b);
+return 0;
+}
